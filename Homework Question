@@ -77,10 +77,10 @@
         "\n",
         "# Ploting the solution\n",
         "plt.figure(figsize=(10, 5))\n",
-        "plt.plot(sol.t, sol.y[0], label=\"Displacement y(t)\", color='hotpink')\n",
-        "plt.xlabel(\"Time (s)\")\n",
+        "plt.plot(sol.t, sol.y[0], label=\"Displacement\", color='hotpink')\n",
+        "plt.xlabel(\"Time(s)\")\n",
         "plt.ylabel(\"Displacement y(t)\")\n",
-        "plt.title(\"Solution of the Differential Equation\")\n",
+        "plt.title(\"Serial Number: 27\")\n",
         "plt.legend()\n",
         "plt.grid()\n",
         "plt.show()\n"
